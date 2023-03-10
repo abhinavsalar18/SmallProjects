@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD app using HTML, CSS and JavaScript</title>
+    <link rel="stylesheet" href="./crud.css">
+</head>
+<body>
+    <div id="title">
+        <h2>CRUD Application</h2>
+    </div>
+    
+    <div class="container">
+        <form action="">
+            <label class="form-control" for="firstName" >First Name</label><br>
+            <input class="form-control" type="text" id="firstName" placeholder="Enter first name"><br><br>
+            <label class="form-control" for="lastName">Last Name</label><br>
+            <input class="form-control" type="text" id="lastName" placeholder="Enter last name"><br><br>
+            <label class="form-control" for="Hobby">Hobby</label><br>
+            <input class="form-control" type="text" id="hobby" placeholder="Enter Hobby"><br>
+            <button type="submit" class="form-control" id="sbmt" >Submit</button>
+        </form>
+    </div>
+
+    <div class="showData">
+        <table class="table">
+            <thead class="header">
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Hobby</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="student-list" >
+            </tbody>
+            
+        </table>
+    </div>
+    <script src="./crud.js"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+body{
+    background-color: #1f2121;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    color: white;
+}
+
+
+
+.container{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input{
+    padding-left: 10px;
+    width: 30rem;
+    height: 1.5rem;
+    border-radius: .4rem;
+}
+
+#sbmt{
+    margin-top: 0.5rem;
+    padding: 5px;
+    color: white;
+    border-color: transparent;
+    border-radius: 4px;
+    background-color: green;
+    
+}
+
+.showData{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 15px; */
+}
+    
+
+.table{
+    width: 40rem;
+    /* border: 2px solid black   */
+}
+.header{
+    background-color: black;
+}
+
+td{
+    height: 2rem;
+}
+
+
+#student-list{
+    text-align: center;
+    background-color: rgb(48, 48, 48);
+}
+
+
+#edit{
+    background-color: orange;
+    border-color: transparent;
+    border-radius: 4px;
+    /* text-align */
+    margin-right: 1rem;
+}
+
+#delete{
+    background-color: red;
+    border-color: transparent;
+    border-radius: 4px;
+    color: white;
+}
+
+
+.msgError{
+    background-color: rgb(246, 208, 208);
+    /* border: 2px solid rgb(245, 12, 12);  */
+    color: rgb(245, 92, 92);
+    width: 35rem;
+    height: 4rem;
+    padding: .5rem 0px 0px .5rem;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.msgSuccess{
+    background-color: rgb(207, 246, 207);
+    /* border: 2px solid rgb(245, 12, 12);  */
+    color: rgb(39, 114, 39);
+    width: 35rem;
+    height: 4rem;
+    padding: .5rem 0px 0px .5rem;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+#title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
